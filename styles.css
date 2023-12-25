@@ -1,0 +1,144 @@
+/* body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background-color: #2C3E50;
+    color: #ECF0F1;
+    padding: 1em;
+    min-width: 200px;
+}
+
+.logo h1 {
+    color: #ECF0F1;
+    margin-bottom: 1em;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #ECF0F1;
+    padding: 1em;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #34495E;
+}
+
+main {
+    flex: 1;
+    padding: 2em;
+}
+
+header {
+    background-color: #3498DB;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+section {
+    margin-bottom: 2em;
+    background-color: #ECF0F1;
+    padding: 1.5em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #2C3E50;
+    color: #ECF0F1;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+} */
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background-color: #2C3E50;
+    color: #ECF0F1;
+    padding: 1em;
+    min-width: 200px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.logo h1 {
+    color: #ECF0F1;
+    margin-bottom: 1em;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #ECF0F1;
+    padding: 1em;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #34495E;
+}
+
+main {
+    flex: 1;
+    padding: 2em;
+}
+
+header {
+    background-color: #3498DB;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+section {
+    margin-bottom: 2em;
+    background-color: #ECF0F1;
+    padding: 1.5em;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #2C3E50;
+    color: #ECF0F1;
+    text-align: center;
+    padding: 0.1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
